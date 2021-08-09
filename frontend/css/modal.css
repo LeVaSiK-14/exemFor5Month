@@ -1,0 +1,78 @@
+.modal-cart{
+    position: fixed;
+    right: -316px;
+    top: 0;
+    width: 316px;
+    height: 100%;
+    background: #8E4575;
+    visibility: hidden;
+    transition: 
+                right 0.5s linear,
+                visibility 0.5s linear;
+    overflow-x: auto;
+}
+
+.modal-burger, .modal-burger2{
+    position: fixed;
+    left: -316px;
+    top: 0;
+    width: 316px;
+    height: 100%;
+    background: #ffffff;
+    visibility: hidden;
+    transition: 
+                left 0.5s linear,
+                visibility 0.5s linear;
+    padding: 119px 0 73px 0;
+}
+.modal__add_item{
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(59, 59, 59, 0.376);
+    visibility: hidden;
+    opacity: 0;
+    transition: 
+                opacity 0.5s linear,
+                visibility 0.5s linear;
+}
+
+.modal__visible_item{
+    visibility: visible;
+    opacity: 1;
+    transition: 
+
+                opacity 0.5s linear,
+                visibility 0.5s linear;
+}
+
+.modal_content{
+    position: relative;
+    left: calc(50% - 468px / 2);
+    top: 20%;
+    width: 468px;
+    min-height: 400px;
+    background: #F7F8FC;
+}
+.modal__add_title{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 55px;
+}
+.show-modal-burger{
+    left: 0;
+    visibility: visible;
+    transition: 
+                left 0.5s linear;
+}
+.show-modal{
+    right: 0;
+    visibility: visible;
+    transition: 
+                right 0.5s linear;
+}

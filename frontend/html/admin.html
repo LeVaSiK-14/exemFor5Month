@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <script defer src="../src/adminPanel.js"></script>
+    <title>Admin panel</title>
+</head>
+<body>
+    <header class="header">
+        <img src="../img/burger.svg" alt="" class="burger2">
+        <img src="../img/logo.svg" alt="" class="logo">
+        <p class="admin__page">admin page</p>
+    </header>
+
+    <div class="wrapper">
+        <p class="adminTitle">Avaliable sweets</p>
+        <div class="admin__list"></div>
+        <button class="add_pastry">Add new shop item</button>
+    </div>
+
+
+
+    <div class="modal-burger2">
+        <img src="../img/cross-black.svg" alt="" class="cross-black">
+        <p class="contact">Contact us</p>
+        <p class="number">+11 4783 4477 8999</p>
+        <p class="text_burger">Our delivery working from 09:00 to 23:00</p>
+        <p class="go_to_admin"><a class="go_to_admin" href="./main.html">Go to main page</a></p>
+    </div>
+
+    <div class="modal__add_item">
+        <div class="modal_content">
+            <h1 class="modal__add_title">
+                Create new item in shop
+            </h1>
+            <form action="" method='POST' class="form">
+                <input type="text" name="name" id="name" class="name-input" placeholder="Name">
+                <p class="nameError error"></p>
+                <input type="text" name="image" id="image" class="image-input" placeholder="Image url">
+                <p class="imageError error"></p>
+                <input type="number" name="inStock" id="inStock" class="inStock-input" placeholder="in stock">
+                <p class="inStockError error"></p>
+                <input type="text" name="ingredients" id="ingredients" class="ingredients-input" placeholder="Ingredients">
+                <p class="ingredientsError error"></p>
+                <input type="number" name="cost" id="cost" class="cost-input" placeholder="Cost">
+                <p class="costError error"></p>
+                <input type="button" value="Create item" class='form_send'>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

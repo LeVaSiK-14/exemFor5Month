@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    background: transparent;
+    list-style-type: none;
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    height: 101px;
+    background-color: #8E4575;
+    display: flex;
+    justify-content: space-between;
+    padding: 22.42px 40px 23.64px 74px;
+    align-items: center;
+}
+.carts{
+    display: flex;
+    color: #ffffff;
+}
+.burger, .burger2{
+    cursor: pointer;
+}
+.cart{
+    cursor: pointer;
+}
+.cart__count{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-left: 9px;
+}
+.wrapper{
+    padding-top: 77px;
+    padding-left: 220px;
+    padding-bottom: 125px;
+    padding-right: 220px;
+}
+
+.list_of_pastrys{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.item{
+    width: 297px;
+    height: 485px;
+    padding: 13.48px 13.44px 13px 13.44px;
+    background: #F7F8FC;
+    margin-top: 28px;
+    margin-left: 26px;
+}
+
+.item-div-img{
+    width: 270.12px;
+    height: 270.93px;
+}
+
+.item-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item-addBtn{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    margin-top: 49px;
+    cursor: pointer;
+}
+.good{
+    background-color: #8E4575;
+}
+.bad{
+    background-color: #919294;
+}
+
+.item-name{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #303E3D;
+    margin-top: 11.8px;
+}
+
+.item-ingredients{
+    margin-top: 10.79px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #303E3D;
+}
+
+.item-cost{
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #303E3D;
+}
+
+.cross{
+    position: absolute;
+    top: 62.49px;
+    left: 34.49px;
+    width: 15.01px;
+    height: 15.01px;
+    cursor: pointer;
+}
+
+.cross-black{
+    position: absolute;
+    top: 62.49px;
+    left: 264.49px;
+    width: 15.01px;
+    height: 15.01px;
+    cursor: pointer;
+}
+
+.cart__list{
+    margin-top: 57.51px;
+    padding: 43.49px 34px 0 35px;
+    color: #ffffff;
+}
+
+.cart_hr{
+    background-color: #ffffff;
+    width: 100%;
+    height: 1px;
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
+
+.cart_item__container{
+    margin-bottom: 29px;
+}
+
+.cart_item__name{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.cart_item__count{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.cart_item__cost{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    margin-top: -21px;
+}
+
+.cart_all__cost{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart_isEmpty{
+    text-align: center;
+    font-weight: normal;
+    font-size: 16px;
+}
+.contact{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #303E3D;
+    margin-left: 62px;
+}
+.number{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #303E3D;
+    margin-top: 18px;
+    margin-left: 62px;
+}
+.text_burger{
+    margin-top: 76px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #303E3D;
+    width: 164px;
+    margin-left: 62px;
+}
+.go_to_admin{
+    margin-top: 380px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    color: #6563CC;
+    cursor: pointer;
+    text-align: center;
+}
+
+.admin__page{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+}
+.adminTitle{
+    margin-top: 2px;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    color: #303E3D;
+    margin-left: 336px;
+    margin-bottom: 36px;
+}
+.admin_item__container{
+    display: flex;
+    width: 100%;
+    height: 62px;
+    background: #F7F8FC;
+    margin-bottom: 7px;
+    padding: 20px 22px 21px 35px;
+}
+.admName{
+    display: flex;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #303E3D;
+    width: 300px;
+}
+.admNamePen, .admPricePen{
+    margin-left: 23px;
+    cursor: pointer;
+    width: 12px;
+}
+
+.admPrice{
+    width: 300px;
+    display: flex;
+}
+.admPriceText{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #303E3D;
+    padding-top: 3px;
+}
+.admPricePrice{
+    margin-left: 16px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #303E3D;
+}
+.admStock{
+    display: flex;
+    width: 300px;
+}
+.admStockMinus{
+    margin-left: 18px;
+    width: 16px;
+    cursor: pointer;
+}
+.admStockPlus{
+    margin-left: 15px;
+    width: 16px;
+    cursor: pointer;
+}
+.admStockStock{
+    margin-left: 15px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #303E3D;
+}
+
+.admStockText{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #303E3D
+}
+.admDelete{
+    width: 14px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.inputPrice, .inputName{
+    border: 1px solid #8E4575;
+    width: 202px;
+    height: 30px;
+    padding-left: 9px;
+    margin-right: 18px;
+}
+.updAdmPrice, .updAdmName{
+    width: 300px;
+    display: flex;
+}
+.checkPrice, .checkName{
+    width: 20px;
+    cursor: pointer;
+}
+
+.add_pastry{
+    margin-top: 52px;
+    padding: 17px 42px;
+    background: #8E4575;
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    margin-left: calc(50% - 257px / 2);
+    cursor: pointer;
+}
+
+.form input{
+    border: 1px solid #E4E4E4;
+    width: 344px;
+    height: 30px;
+    margin-top: 14px;
+    margin-left: calc(50% - 344px / 2);
+    padding-left: 15px;
+}
+
+.form_send{
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.error{
+    color: red;
+    margin-left: 61px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .wrapper{
+        padding: 32px 25px 77px 25px;
+    }
+    .header{
+        padding: 14px 16px 16px 20px;
+    }
+    .item{
+        margin-left: 0;
+        margin-right: 0;
+        width: 365px;
+    }
+    
+}
+
+
+@media screen and (max-width: 375px) {
+    .wrapper{
+        padding: 32px 25px 77px 25px;
+    }
+    .header{
+        padding: 14px 16px 16px 20px;
+    }
+    .item{
+        padding: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        width: 325px;
+    }
+    
+}
